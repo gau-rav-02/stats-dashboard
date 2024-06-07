@@ -11,10 +11,10 @@ const CustomBarChart : React.FC = () => {
         <ResponsiveContainer width="100%" height={400}>
           <BarChart
             data={activityData?.chartData}
-            margin={{ top: 20, right: 30, left: 20, bottom: 10 }}
+            margin={{ top: 20, right: 30, left: 20, bottom: 25 }}
           >
             <CartesianGrid strokeDasharray="3 3" stroke="black" />
-            <XAxis dataKey="name" fontSize={12} interval={0} height={70} tick={{fill: 'black'}}/>
+            <XAxis dataKey="name" fontSize={12} interval={0} height={60} tick={{fill: 'black'}}/>
             <YAxis tick={{fill: 'black'}} />
             <Tooltip />
             <Legend />
