@@ -1,0 +1,49 @@
+
+.show-chart-container{
+    width: 45vw;
+    height: 60vh;
+    background-color: #fbedf6;
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: .5rem 0 0 0;
+  }
+  
+  .show-chart-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+    background-color: white;
+    width: 100%;
+    padding: 0 .5rem;
+  }
+
+  .show-chart-dropdown{
+    width: 8vw;
+    height: 4vh;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: .5rem;
+    padding: 0 .5rem;
+    border: solid 2px #F28DCF;
+  }
+
+  @media screen and (max-width: 1450px) {
+    .show-chart-container{
+        width: 80%;
+        margin-top: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .show-chart-container{
+      width: 80%;
+      margin-top: 2rem;
+    }
+
+    .show-chart-dropdown{
+        width: 150px;
+    }
+  }

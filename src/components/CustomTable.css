@@ -1,0 +1,79 @@
+
+.table-container{
+    width: 52vw;
+    height: fit-content;
+    background-color: #fbedf6;
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: .5rem 0 0 .5rem;
+    padding-bottom: .7rem;
+  }
+
+  table{
+    width: 100%;
+  }
+  
+  td{
+    text-align: center;
+    color: white;
+    padding: 2px 0;
+    border-radius: .2rem;
+  }
+  
+  #date-td{
+    background-color: rgb(54, 54, 54);
+    padding:  0 8px;
+  }
+  
+  .custom-table{
+    border-collapse: separate;
+    border-spacing: 11px;
+    font-size: 14px;
+  }
+  
+  .table-header{
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 0 .5rem;
+  }
+  
+  .table-author-name{
+    margin-left: .5rem;
+    margin-top: .3rem;
+  }
+  
+  .custom-table-dropdown{
+    width: 16vw;
+    height: 4vh;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: .5rem;
+    padding: 0 .5rem;
+    border: solid 2px #F28DCF;
+  }
+
+  .custom-table-dropdown option:hover{
+    background: #F28DCF !important;
+  }
+
+    @media screen and (max-width: 1500px) {
+    .table-container{
+        width: 60%;
+    }
+  }
+
+    @media screen and (max-width: 900px) {
+      .table-container{
+        width: 80%;
+      }
+
+      .custom-table-dropdown{
+        width: 250px;
+      }
+    }
